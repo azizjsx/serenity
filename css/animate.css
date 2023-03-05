@@ -1,0 +1,46 @@
+.welc-anim {
+    animation: pop .35s 2.3s forwards;
+}
+@keyframes pop {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.sub-anim {
+    animation: slider .35s 2.6s forwards;
+}
+.qone-anim {
+    animation: slider 1.25s forwards;
+}
+.anone-anim {
+    animation: slider 1.25s forwards;
+}
+.img-anim {
+    animation: slidel 1.25s forwards;
+}
+@keyframes slider {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes slidel {
+    0% {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
